@@ -1,0 +1,29 @@
+
+.iconos-nosotros{
+
+    text-align: center;
+img{
+height: 10rem;
+}
+
+h3{
+    text-transform: uppercase;
+}
+
+
+.icono{
+    display: flex;
+    flex-direction: column;
+    align-items: center
+    
+}
+
+@include tablet{
+    
+    @include grid(3,2rem);
+
+}
+
+
+
+}

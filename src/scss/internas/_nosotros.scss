@@ -1,0 +1,16 @@
+
+
+@include tablet{
+    
+.sobre-nostros{
+    @include grid(2,2rem);
+
+    .image{
+        display: flex;
+        align-items: left;
+
+    }
+}
+
+}
+

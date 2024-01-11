@@ -1,0 +1,28 @@
+.boton-amarillo{
+    @include boton($amarillo,inline-block);
+    border-radius:10px ;
+}
+
+.boton-amarillo-block{
+    @include boton($amarillo,block);
+    border-radius:10px ;
+}
+
+.boton-verde{
+    @include boton($verde,inline-block);
+    border-radius:10px ;
+}
+
+.boton-rojo-block{
+    @include boton($rojo,block);
+    border-radius:10px ;
+    width: 100%
+}
+
+
+
+.boton-verde-block{
+    @include boton($verde,block);
+    border-radius:10px ;
+}
+
